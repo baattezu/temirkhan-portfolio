@@ -1,0 +1,8 @@
+{
+  "name": "temirkhan-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev --port 6650",
+    "deploy": "wrangler deploy"
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Temirkhan Bayassov — Backend Engineer</title>
+  <meta name="description" content="Backend engineer — Java, Kotlin, Spring Boot, PostgreSQL. Work, projects and previews.">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta property="og:title" content="Temirkhan Bayassov — Backend Engineer">
+  <meta property="og:description" content="Java · Kotlin · Spring Boot · PostgreSQL. Work, projects and previews.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://temirkhan.verylabs.dev">
+  <meta property="og:image" content="https://temirkhan.verylabs.dev/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="mono-logo" href="#" aria-label="Top">TB</a>
+    <nav class="nav">
+      <a href="#work" data-t="nav.work"></a>
+      <a href="#projects" data-t="nav.projects"></a>
+      <a href="#stack" data-t="nav.stack"></a>
+      <a href="#contact" data-t="nav.contact"></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="en">EN</button><button data-lang="ru">RU</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="status"><span class="dot"></span><span data-t="hero.status"></span></p>
+      <h1><span data-t="hero.name"></span><br><span class="dim" data-t="hero.role"></span></h1>
+      <p class="lead" data-t="hero.lead"></p>
+      <div class="cta">
+        <a class="btn primary" id="mail" href="mailto:temupxan@gmail.com" data-t="hero.write"></a>
+        <a class="btn" href="https://www.linkedin.com/in/temirkhan-bayassov" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/baattezu" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="meta" data-t="hero.meta"></p>
+    </section>
+
+    <section class="wrap metrics" id="metrics"></section>
+
+    <section class="wrap block" id="work">
+      <div class="head"><span class="idx">01</span><h2 data-t="work.title"></h2><p data-t="work.note"></p></div>
+      <div id="jobs"></div>
+    </section>
+
+    <section class="wrap block" id="projects">
+      <div class="head"><span class="idx">02</span><h2 data-t="projects.title"></h2><p data-t="projects.note"></p></div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section class="wrap block" id="stack">
+      <div class="head"><span class="idx">03</span><h2 data-t="stack.title"></h2></div>
+      <dl class="stack" id="stacklist"></dl>
+      <div class="edu" id="edu"></div>
+    </section>
+
+    <section class="wrap block contact" id="contact">
+      <h2 data-t="contact.title"></h2>
+      <p data-t="contact.text"></p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:temupxan@gmail.com">temupxan@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/temirkhan-bayassov" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/baattezu" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© 2026 Temirkhan Bayassov</span>
+    <a href="https://verylabs.dev" target="_blank" rel="noopener">verylabs.dev</a>
+  </footer>
+
+  <div class="sheet-back" id="back" hidden></div>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" hidden>
+    <div class="grab"></div>
+    <button class="close" id="close" aria-label="Close">×</button>
+    <div id="sheetbody"></div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
