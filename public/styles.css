@@ -191,7 +191,7 @@ svg.pv { height: auto; }
 #sheetbody .btn { margin-top: 20px; }
 .sh-media { display: flex; gap: 12px; align-items: stretch; margin-right: 40px; }
 .sh-media > img:first-child, .sh-media > .cover { flex: 1; min-width: 0; border-radius: 12px; border: 1px solid var(--line); aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
-.sh-media .extra { width: 22%; border-radius: 12px; border: 1px solid var(--line); object-fit: cover; object-position: top; aspect-ratio: auto; }
+.sh-media .extra { width: 22%; border-radius: 12px; border: 1px solid var(--line); object-fit: cover; object-position: left top; aspect-ratio: auto; }
 .sh-media + .card-top { margin-top: 20px; }
 .sh-pv { margin: 18px 0 6px; }
 
